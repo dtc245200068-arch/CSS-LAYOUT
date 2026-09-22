@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    display: block;
+    margin: 30px 0;
+}
+
+/* Thanh điều hướng */
+nav {
+    display: block;
+    background-color: #eeeeee;
+    padding: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Nội dung */
+section {
+    display: block;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.box {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+    vertical-align: top;
+}
+
+/* Cuối trang */
+footer {
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #eeeeee;
+}
